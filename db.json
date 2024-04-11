@@ -4,8 +4,8 @@
         "name": "Ugali",
         "category": "Main Course",
         "area": "Kenyan",
-        "recipe": "Bring water to a boil. Slowly add maize flour while stirring continuously. Keep stirring until the mixture thickens and forms a stiff porridge-like consistency. Serve hot with sukuma wiki, nyama choma, or stew.",
-        "image": "ugaliNyama.jpeg"
+        "recipe": "Bring water to a boil. \n Slowly add maize flour while stirring continuously. \n Keep stirring until the mixture thickens and forms a stiff porridge-like consistency. Serve hot with sukuma wiki, nyama choma, or stew.",
+        "image": "./images/ugaliNyama.jpeg"
       },
       {
         "name": "Sukuma Wiki",

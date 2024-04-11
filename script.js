@@ -8,6 +8,7 @@ document.getElementById("button").addEventListener("click", () => {
     .then(response => response.json()) 
     .then(data => { 
       // When the data is received from the API...
+      
       const items = document.getElementById("items"); 
       // creating  containr for displaying meal items
       items.innerHTML = "";
@@ -28,6 +29,7 @@ document.getElementById("button").addEventListener("click", () => {
         
           itemDiv.setAttribute("onclick", `details('${meal.idMeal}')`); 
           // Add click event listener to show meal details
+          
           let itemInfo = `
                     <div class="card " style="width: 12rem;">
                         <img src="${meal.strMealThumb}" class="card-img-top" alt="...">
@@ -36,26 +38,30 @@ document.getElementById("button").addEventListener("click", () => {
                         </div>
                     </div>
                     `; 
-                    // HTML structure to display meal image and name
           itemDiv.innerHTML = itemInfo;
            // Set the HTML content for the meal item
-          items.appendChild(itemDiv); 
-          // Append the meal item to the container
+          items.appendChild(itemDiv); // Append the meal item to the container
         });
       }
     });
 });
 
 // Function to fetch and display details of a selected meal
+
 function details(id) {
-  // Fetch details of the meal based on its ID
+  // Fetch meal id
   fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`)
-    .then(res => res.json()) // Parse the response as JSON
-    .then(detail => { // When the detail data is received from the API...
-      let meal = detail.meals[0]; // Get the first meal from the detail data
-      let details = document.getElementById("details"); // Get the container for displaying meal details
-      details.innerHTML = ""; // Clear any previous meal details from the container
-      let detailsDiv = document.createElement("div"); // Create a div element for the meal details
+    .then(res => res.json())
+    .then(detail => { 
+      let meal = detail.meals[0]; 
+      // Get the 1st meal from the detail data
+      let details = document.getElementById("details"); 
+      details.innerHTML = ""; 
+      // Clear any previous meal details in  container
+
+      let detailsDiv = document.createElement("div");
+       // Creat  div element for  meal details
+
       let detailsInfo = `
         <div class="card " style="width: 19rem;">
             <img src="${meal.strMealThumb}" class="card-img-top" alt="...">
@@ -72,9 +78,12 @@ function details(id) {
                     <li>${meal.strIngredient5}</li>
                 </ul>
             </div>
-        </div>
-        `; // HTML structure to display meal details including image, name, and ingredients
-      detailsDiv.innerHTML = detailsInfo; // Set the HTML content for the meal details
-      details.appendChild(detailsDiv); // Append the meal details to the container
+        </div>`; 
+        // HTML structure to display meal details including image, name, and ingredients
+        //Each meal has a display of incredients when clicked
+      detailsDiv.innerHTML = detailsInfo; 
+      
+      details.appendChild(detailsDiv); 
+      // Append the meal details to the container
     });
 }
