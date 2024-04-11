@@ -14,6 +14,8 @@ body {
     contain: content;
     border-radius: 20px;
     padding: 0px;
+    padding: 20px;
+    padding-left: 50px;
 
 }
 
