@@ -1,0 +1,47 @@
+{
+    "recipes": [
+      {
+        "name": "Ugali",
+        "category": "Main Course",
+        "area": "Kenyan",
+        "recipe": "Bring water to a boil. Slowly add maize flour while stirring continuously. Keep stirring until the mixture thickens and forms a stiff porridge-like consistency. Serve hot with sukuma wiki, nyama choma, or stew.",
+        "image": "ugaliNyama.jpeg"
+      },
+      {
+        "name": "Sukuma Wiki",
+        "category": "Side Dish",
+        "area": "Kenyan",
+        "recipe": "Heat oil in a pan. Add chopped onions and cook until translucent. Add chopped sukuma wiki leaves and cook until wilted. Season with salt, pepper, and any desired spices. Serve hot with ugali or rice.",
+        "image": "sukuma_wiki.jpg"
+      },
+      {
+        "name": "Nyama Choma",
+        "category": "Main Course",
+        "area": "Kenyan",
+        "recipe": "Marinate beef or goat meat with a mixture of spices, garlic, and ginger. Grill the meat over an open flame until cooked to desired doneness. Serve hot with kachumbari and ugali.",
+        "image": "nyama_choma.jpg"
+      },
+      {
+        "name": "Mandazi",
+        "category": "Snack",
+        "area": "Kenyan",
+        "recipe": "In a bowl, mix flour, sugar, baking powder, and coconut milk to form a dough. Roll out the dough and cut into desired shapes. Deep fry in hot oil until golden brown. Serve warm as a snack or with tea.",
+        "image": "mandazi.jpg"
+      },
+      {
+        "name": "Githeri",
+        "category": "Main Course",
+        "area": "Kenyan",
+        "recipe": "Boil a mixture of maize and beans until tender. Drain excess water if necessary. In a separate pan, sauté onions, tomatoes, and spices. Add the boiled maize and beans to the pan and simmer until flavors meld. Serve hot.",
+        "image": "githeri.jpg"
+      },
+      {
+        "name": "Chapati",
+        "category": "Side Dish",
+        "area": "Kenyan",
+        "recipe": "In a bowl, mix flour, water, salt, and oil to form a soft dough. Divide the dough into small balls and roll out each ball into a thin circle. Cook each circle on a hot griddle until golden brown spots appear on both sides. Serve hot.",
+        "image": "chapati.jpg"
+      }
+    ]
+  }
+  
