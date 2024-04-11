@@ -35,9 +35,12 @@ document.getElementById("button").addEventListener("click", () => {
                             <h5 class="card-text">${meal.strMeal}</h5>
                         </div>
                     </div>
-                    `; // HTML structure to display meal image and name
-          itemDiv.innerHTML = itemInfo; // Set the HTML content for the meal item
-          items.appendChild(itemDiv); // Append the meal item to the container
+                    `; 
+                    // HTML structure to display meal image and name
+          itemDiv.innerHTML = itemInfo;
+           // Set the HTML content for the meal item
+          items.appendChild(itemDiv); 
+          // Append the meal item to the container
         });
       }
     });
