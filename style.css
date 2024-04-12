@@ -35,6 +35,7 @@ body {
 
 video {
     border-radius: 3%;
+    width:100%;
 }
 #msg{
     text-align: center;
@@ -49,6 +50,7 @@ video {
     gap: 30px;
     margin-left: 10%;
     margin-right: 10%;
+    width:100%;
 
 }
 

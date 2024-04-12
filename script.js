@@ -1,4 +1,5 @@
 // search btn
+
 document.getElementById("button").addEventListener("click", () => {
  //input value
   let inputValue = document.getElementById("inputName").value;
@@ -78,6 +79,10 @@ function details(id) {
                     <li>${meal.strIngredient5}</li>
                 </ul>
             </div>
+            <div>
+                 <button>Order</button>
+                
+            </div>
         </div>`; 
         // HTML structure to display meal details including image, name, and ingredients
         //Each meal has a display of incredients when clicked
@@ -87,3 +92,4 @@ function details(id) {
       // Append the meal details to the container
     });
 }
+console.log(details);
