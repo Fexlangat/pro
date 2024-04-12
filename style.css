@@ -35,7 +35,11 @@ body {
 
 video {
     border-radius: 3%;
-    width:100%
+    width: 400px;
+    height: 170px;
+    
+    
+
 }
 #msg{
     text-align: center;
@@ -48,15 +52,15 @@ video {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
-    width:100%;
+    
 
 }
 
 img {
    
-    border-radius: 15px;
+    border-radius: 3%;
+    width:100%;
+    height: auto;
 }
 #items{
   display: grid;
