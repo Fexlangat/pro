@@ -92,4 +92,4 @@ function details(id) {
       // Append the meal details to the container
     });
 }
-console.log(details);
+
